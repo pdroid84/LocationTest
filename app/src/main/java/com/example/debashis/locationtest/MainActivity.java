@@ -192,7 +192,8 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
 
     @Override
     public void onConnected(Bundle bundle) {
-        Log.d("DEB","onConnected is called");
+        Log.d("DEB","onConnected is called.");
+        Log.d("DEB", "Just a test for Git barch - FristBranch");
         // Connected to Google Play services!
         mLastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
         if(mLastLocation != null) {
